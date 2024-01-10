@@ -1,5 +1,11 @@
 package forms
 
+type Form struct {
+	Groups []FormGroup
+	Name   string
+	ID     string
+}
+
 type FieldType struct {
 	Name string
 }
@@ -16,8 +22,5 @@ type Field struct {
 
 type FormGroup struct {
 	Fields []Field
-}
-
-type Form struct {
-	Groups []FormGroup
+	Name   string
 }

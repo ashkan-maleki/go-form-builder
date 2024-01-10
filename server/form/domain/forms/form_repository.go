@@ -13,7 +13,7 @@ func (repo FormRepository) Get(Id string) (Form, error) {
 	return Form{}, nil
 }
 
-func (repo FormRepository) All(pag lists.Pagination) ([]Form, error) {
+func (repo FormRepository) List(pag lists.Pagination) ([]Form, error) {
 	fmt.Println(pag)
 	return []Form{}, nil
 }

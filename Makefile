@@ -27,3 +27,11 @@ commit:
 pull:
 	git fetch
 	git pull
+
+
+#===============================
+# Service: API gateway
+#===============================
+
+run-gateway:
+	go run server/gateway/cmd/main.go

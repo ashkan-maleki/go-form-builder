@@ -1,6 +1,7 @@
 #===============================
 # Go commands
 #===============================
+# git config --global --unset-all remote.origin.proxy
 tidy:
 	# export GOPROXY="https://mirrors.tencent.com/go,https://proxy.golang.org,direct"
 	#export GOPROXY="https://proxy.golang.org,direct"

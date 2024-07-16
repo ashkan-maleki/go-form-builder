@@ -51,3 +51,5 @@ type Field struct {
 	Type  FieldType
 	Value []FieldValue
 }
+
+// https://victoramartinez.com/posts/event-sourcing-in-go/

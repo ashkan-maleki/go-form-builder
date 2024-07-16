@@ -53,3 +53,4 @@ type Field struct {
 }
 
 // https://victoramartinez.com/posts/event-sourcing-in-go/
+// https://medium.com/@0x9ef/how-to-write-event-sourcing-library-in-go-2b84d28445b9
